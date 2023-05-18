@@ -18,6 +18,6 @@ consumer
     consumer.consume();
   })
   .on("data", function (data) {
-    console.log(JSON.stringify(data));
-    // console.log(`received message: ${eventType.fromBuffer(data.value)}`);
+    // console.log(JSON.stringify(data));
+    console.log(`received message: ${eventType.fromBuffer(data.value)}`);
   });
