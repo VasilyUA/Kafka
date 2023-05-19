@@ -3,7 +3,7 @@ import eventType from "../eventType.js";
 
 var consumer = new Kafka.KafkaConsumer(
   {
-    "group.id": "kafka1", // для розділення сервісів я кщо вказати дну групу то буде балансуватись навантаження
+    "group.id": "kafka2", // для розділення сервісів я кщо вказати дну групу то буде балансуватись навантаження
     "metadata.broker.list": "localhost:9092",
   },
   {}

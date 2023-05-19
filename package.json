@@ -5,15 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:pr1": "nodemon ./project1/index.js",
-    "start:pr2": "nodemon ./project2/index.js"
+    "start:p1": "nodemon ./project1/index.js",
+    "start:p2": "nodemon ./project2/index.js",
+    "start:p3": "nodemon ./project3/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "avsc": "^5.7.7",
+    "concurrently": "^8.0.1",
     "node-rdkafka": "^2.16.0"
   },
   "devDependencies": {
