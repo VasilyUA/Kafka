@@ -1,1 +1,1 @@
-run ./create-topic.sh
+run command `./create-topic.sh`

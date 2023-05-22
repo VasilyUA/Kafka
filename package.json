@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:p1": "nodemon ./project1/index.js",
-    "start:p2": "nodemon ./project2/index.js",
-    "start:p3": "nodemon ./project3/index.js"
+    "p1": "nodemon ./project1/index.js",
+    "p2": "nodemon ./project2/index.js",
+    "p3": "nodemon ./project3/index.js"
   },
   "keywords": [],
   "author": "",
